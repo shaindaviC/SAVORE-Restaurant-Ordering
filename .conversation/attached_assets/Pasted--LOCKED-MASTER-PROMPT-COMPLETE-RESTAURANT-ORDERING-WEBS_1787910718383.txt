@@ -1,0 +1,1475 @@
+# 🔒 LOCKED MASTER PROMPT — COMPLETE RESTAURANT ORDERING WEBSITE
+
+## ROLE
+
+Act as a **senior UI/UX designer, frontend developer, and product designer**.
+
+Build a **complete, production-style Restaurant Ordering Website** using:
+
+* **HTML5**
+* **CSS3**
+* **Vanilla JavaScript (ES6+)**
+* No React
+* No Bootstrap
+* No Tailwind
+* No external UI framework
+* Use semantic HTML5
+* Use clean, modular JavaScript
+* Use responsive CSS
+* Use realistic restaurant content
+* Use placeholder/remote food images where required
+
+The final result must feel like a **real modern food-ordering platform**, not a basic college project.
+
+---
+
+# 🔒 IMPORTANT: DO NOT BREAK THESE REQUIREMENTS
+
+* Build the **entire website from top to bottom**.
+* Do not provide incomplete sections.
+* Do not use "coming soon".
+* Do not leave buttons non-functional unless explicitly stated.
+* Every important interaction must work using JavaScript.
+* Do not remove requested features.
+* Do not simplify the project into a landing page.
+* Do not use lorem ipsum.
+* Use realistic food names, prices, descriptions and restaurant information.
+* Make the website fully responsive.
+* Desktop, tablet and mobile layouts must all work.
+* Maintain one consistent visual design throughout.
+* Use accessible semantic HTML.
+* Use clean naming conventions.
+* Add comments for major HTML/CSS/JS sections.
+* Keep the code organized and easy to modify.
+
+---
+
+# 1. WEBSITE CONCEPT
+
+Create a premium modern restaurant ordering platform called:
+
+## **SAVORÉ**
+
+Tagline:
+
+**Good food. Made for your mood.**
+
+Restaurant type:
+
+**Premium casual multi-cuisine restaurant**
+
+Cuisine:
+
+* Indian
+* Italian
+* Asian
+* Burgers
+* Pizza
+* Desserts
+* Beverages
+
+Primary goal:
+
+Users should be able to:
+
+1. Discover food
+2. Browse categories
+3. Search dishes
+4. View food details
+5. Customize food
+6. Add items to cart
+7. Modify cart
+8. Apply coupons
+9. Select delivery/pickup
+10. Enter address
+11. Choose payment method
+12. Place an order
+13. Track the order
+
+---
+
+# 2. DESIGN DIRECTION
+
+Create a **premium food-tech aesthetic**.
+
+Style:
+
+* Modern
+* Minimal
+* Elegant
+* High-end
+* Warm
+* App-like
+* Conversion-focused
+
+Use:
+
+* Large food photography
+* Rounded cards
+* Soft shadows
+* Spacious layouts
+* Strong typography
+* Clear CTA buttons
+* Smooth hover effects
+* Subtle animations
+* Sticky navigation
+* Floating cart button on mobile
+
+Suggested color direction:
+
+* Warm cream background
+* Deep charcoal text
+* Rich orange/terracotta primary accent
+* White cards
+* Muted beige secondary backgrounds
+* Green for availability/success states
+* Red only for errors/destructive actions
+
+Do NOT make the website visually childish or overly colorful.
+
+---
+
+# 3. GLOBAL NAVIGATION
+
+Create a sticky responsive navbar.
+
+Desktop:
+
+### Left
+
+Restaurant logo:
+
+**SAVORÉ**
+
+### Center
+
+Navigation:
+
+* Home
+* Menu
+* Offers
+* About
+* Contact
+
+### Right
+
+* Search icon
+* Location selector
+* Login/Profile
+* Cart icon with item count
+
+Mobile:
+
+* Logo
+* Search icon
+* Cart icon
+* Hamburger menu
+
+Hamburger menu must open an animated mobile navigation drawer.
+
+---
+
+# 4. HERO SECTION
+
+Create a visually strong hero section.
+
+Left side:
+
+### Heading
+
+**Your cravings, delivered.**
+
+Supporting text:
+
+**Freshly prepared meals, bold flavors, and comfort food delivered straight to your door.**
+
+Buttons:
+
+**Order Now**
+
+**Explore Menu**
+
+Add delivery information:
+
+**⚡ 30–40 min delivery**
+
+**Free delivery above ₹499**
+
+Right side:
+
+Large high-quality food composition/image.
+
+Add floating UI cards:
+
+* ⭐ 4.8 rating
+* 🔥 Best Seller
+* 🛵 30 min delivery
+
+Hero should have subtle entrance animation.
+
+---
+
+# 5. LOCATION BAR
+
+Immediately below hero.
+
+Create a delivery location component:
+
+**Delivering to**
+
+**📍 Coimbatore, Tamil Nadu**
+
+Button:
+
+**Change Location**
+
+Clicking it opens a location modal.
+
+Modal should include:
+
+* Search location
+* Current location button
+* Saved addresses
+* Cancel
+* Confirm location
+
+---
+
+# 6. FOOD CATEGORIES
+
+Create horizontal scrollable categories.
+
+Categories:
+
+* All
+* Starters
+* Indian
+* Pizza
+* Burgers
+* Asian
+* Biryani
+* Desserts
+* Beverages
+
+Each category should contain:
+
+* Icon/image
+* Category name
+
+Clicking a category must filter the menu.
+
+Active category must visually change.
+
+---
+
+# 7. SPECIAL OFFERS
+
+Create a promotional section.
+
+Title:
+
+**Today’s Specials**
+
+Cards:
+
+### Offer 1
+
+**20% OFF**
+
+Use code:
+
+**SAVOR20**
+
+Minimum order ₹499
+
+### Offer 2
+
+**FREE DESSERT**
+
+On orders above ₹799
+
+### Offer 3
+
+**FREE DELIVERY**
+
+On orders above ₹599
+
+Each offer should have:
+
+**Copy Code**
+
+button.
+
+Clicking Copy Code should copy the coupon to clipboard and show a toast.
+
+---
+
+# 8. POPULAR DISHES
+
+Create a section:
+
+## **Customer Favorites**
+
+Create at least 8 food cards.
+
+Each card must contain:
+
+* Food image
+* Vegetarian/non-vegetarian indicator
+* Bestseller badge where appropriate
+* Food name
+* Description
+* Rating
+* Review count
+* Price
+* Add button
+* Quantity control after adding
+
+Example products:
+
+### Truffle Mushroom Pizza
+
+₹449
+
+### Classic Chicken Burger
+
+₹299
+
+### Paneer Tikka Bowl
+
+₹329
+
+### Chicken Biryani
+
+₹389
+
+### Creamy Alfredo Pasta
+
+₹399
+
+### Korean Crispy Chicken
+
+₹429
+
+### Chocolate Lava Cake
+
+₹199
+
+### Mango Cheesecake
+
+₹229
+
+---
+
+# 9. COMPLETE MENU SECTION
+
+Create a full menu.
+
+Heading:
+
+**Explore Our Menu**
+
+Add:
+
+### Search
+
+Placeholder:
+
+**Search for dishes...**
+
+Search must filter products dynamically.
+
+### Filter controls
+
+* Category
+* Veg / Non-Veg
+* Price
+* Rating
+* Bestseller
+
+### Sort
+
+Options:
+
+* Recommended
+* Price: Low to High
+* Price: High to Low
+* Rating
+* Popularity
+
+Menu must dynamically update without page reload.
+
+Create at least **20 realistic menu items**.
+
+Each product should have:
+
+```text
+id
+name
+category
+description
+price
+rating
+reviews
+veg
+bestseller
+image
+customizable
+```
+
+---
+
+# 10. FOOD CARD INTERACTION
+
+Every food card must support:
+
+### Before adding
+
+Show:
+
+**+ Add**
+
+### After adding
+
+Show:
+
+**−  1  +**
+
+Clicking:
+
+* increases quantity.
+
+− decreases quantity.
+
+When quantity becomes zero, return to Add button.
+
+Update:
+
+* Cart count
+* Cart subtotal
+* Cart total
+
+in real time.
+
+---
+
+# 11. FOOD DETAILS MODAL
+
+Clicking a food card should open a detailed product modal.
+
+Include:
+
+* Large image
+* Food name
+* Rating
+* Reviews
+* Description
+* Ingredients
+* Calories
+* Preparation time
+* Price
+
+If customizable:
+
+### Choose Size
+
+* Regular
+* Large
+
+### Add-ons
+
+* Extra cheese +₹50
+* Extra sauce +₹30
+* Extra toppings +₹70
+
+### Special Instructions
+
+Textarea:
+
+**Add a note for the chef...**
+
+Quantity selector.
+
+Button:
+
+**Add to Cart**
+
+The selected customization must be stored with the cart item.
+
+---
+
+# 12. CART SYSTEM
+
+Create a slide-out cart drawer on desktop.
+
+On mobile, cart should become a full-screen panel.
+
+Cart header:
+
+**Your Order**
+
+Each item:
+
+* Image
+* Name
+* Customization
+* Price
+* Quantity controls
+* Remove button
+
+Below:
+
+### Bill Details
+
+Item Total
+
+Delivery Fee
+
+Taxes
+
+Discount
+
+Grand Total
+
+Example:
+
+Item Total: ₹898
+
+Delivery: ₹40
+
+Taxes: ₹54
+
+Discount: -₹100
+
+Total: ₹892
+
+Button:
+
+**Proceed to Checkout**
+
+---
+
+# 13. CART EMPTY STATE
+
+If there are no items:
+
+Show illustration/icon.
+
+Text:
+
+**Your cart is waiting for something delicious.**
+
+Button:
+
+**Explore Menu**
+
+---
+
+# 14. COUPON SYSTEM
+
+Create coupon input.
+
+Placeholder:
+
+**Enter promo code**
+
+Button:
+
+**Apply**
+
+Valid coupons:
+
+### SAVOR20
+
+20% discount
+
+Minimum ₹499
+
+### WELCOME100
+
+₹100 off
+
+Minimum ₹699
+
+### FREEDEL
+
+Free delivery
+
+Minimum ₹599
+
+Invalid coupon:
+
+Show an error message.
+
+Valid coupon:
+
+Show success message.
+
+Coupon discount must update the cart total automatically.
+
+---
+
+# 15. DELIVERY / PICKUP
+
+Checkout should begin with an order type selector.
+
+Options:
+
+### Delivery
+
+**30–40 min**
+
+### Pickup
+
+**15–20 min**
+
+Selected option should have a strong active state.
+
+If Pickup is selected:
+
+Hide delivery address fields.
+
+Show:
+
+**Pickup from SAVORÉ — Coimbatore**
+
+---
+
+# 16. CHECKOUT PAGE
+
+Create a professional checkout experience.
+
+Use a multi-step layout.
+
+### Step 1 — Delivery Details
+
+Fields:
+
+* Full Name
+* Mobile Number
+* Email
+* House / Flat
+* Street
+* Area
+* City
+* State
+* PIN Code
+* Delivery Instructions
+
+Checkbox:
+
+**Save this address**
+
+---
+
+# 17. SAVED ADDRESSES
+
+Create address cards:
+
+### Home
+
+12 Example Street
+
+Coimbatore, Tamil Nadu — 641xxx
+
+Buttons:
+
+* Edit
+* Delete
+* Select
+
+Allow adding a new address.
+
+Store saved addresses using localStorage.
+
+---
+
+# 18. DELIVERY TIME
+
+Allow users to choose:
+
+### ASAP
+
+**30–40 minutes**
+
+or
+
+### Schedule Order
+
+Date selector.
+
+Time selector.
+
+Disable invalid/past times.
+
+---
+
+# 19. PAYMENT SECTION
+
+Create payment method cards.
+
+Options:
+
+### UPI
+
+Google Pay
+
+PhonePe
+
+Paytm
+
+### Card
+
+* Card Number
+* Expiry
+* CVV
+* Cardholder Name
+
+### Cash on Delivery
+
+Show:
+
+**Pay when your order arrives.**
+
+Selected payment option must update visually.
+
+Do not implement real payment processing.
+
+This is a frontend portfolio simulation.
+
+---
+
+# 20. ORDER SUMMARY
+
+Right side desktop / bottom mobile.
+
+Display:
+
+* Items
+* Quantity
+* Subtotal
+* Delivery
+* Taxes
+* Discount
+* Grand Total
+
+Button:
+
+# **Place Order**
+
+Disable button until required checkout fields are valid.
+
+---
+
+# 21. FORM VALIDATION
+
+Implement JavaScript validation.
+
+Validate:
+
+* Name
+* Phone
+* Email
+* Address
+* City
+* PIN
+* Payment selection
+
+Show inline error messages.
+
+Do not rely only on browser default validation.
+
+---
+
+# 22. ORDER CONFIRMATION
+
+After clicking Place Order:
+
+Show a beautiful success screen.
+
+Heading:
+
+# **Order Confirmed! 🎉**
+
+Message:
+
+**Your order has been received and the kitchen is already getting started.**
+
+Generate a random order ID:
+
+**#SV48291**
+
+Show:
+
+* Order ID
+* Estimated delivery
+* Total
+* Payment method
+
+Button:
+
+**Track Order**
+
+Button:
+
+**Back to Home**
+
+Save the order in localStorage.
+
+---
+
+# 23. ORDER TRACKING
+
+Create a dedicated order tracking interface.
+
+Heading:
+
+**Track Your Order**
+
+Show order ID.
+
+Timeline:
+
+### ✓ Order Confirmed
+
+Your order has been received.
+
+### ✓ Preparing
+
+The kitchen is preparing your food.
+
+### 🚴 Out for Delivery
+
+Your order is on the way.
+
+### ○ Delivered
+
+Enjoy your meal!
+
+Animate the progress indicator.
+
+Include:
+
+**Estimated arrival: 7:35 PM**
+
+Also display:
+
+* Delivery address
+* Order items
+* Total
+
+---
+
+# 24. ORDER HISTORY
+
+Create a user/order history section.
+
+Show previous orders.
+
+Each order card:
+
+* Order ID
+* Date
+* Items
+* Total
+* Status
+* Reorder button
+
+Reorder should add the previous order's items back to the cart.
+
+---
+
+# 25. LOGIN / PROFILE UI
+
+Create a login modal.
+
+Options:
+
+**Continue with Email**
+
+Email field.
+
+Password field.
+
+Button:
+
+**Login**
+
+Also include:
+
+**Continue as Guest**
+
+No real authentication required.
+
+For portfolio demonstration, simulate login using localStorage.
+
+---
+
+# 26. RESTAURANT INFORMATION
+
+Create an About section.
+
+Heading:
+
+**Made with passion. Served with purpose.**
+
+Include:
+
+* Restaurant story
+* Chef information
+* Fresh ingredients
+* Hygiene
+* Fast delivery
+
+Stats:
+
+**10+ Years**
+
+Experience
+
+**50K+**
+
+Happy Customers
+
+**4.8★**
+
+Average Rating
+
+**30 Min**
+
+Average Delivery
+
+---
+
+# 27. WHY CHOOSE US
+
+Create 4 feature cards:
+
+### Fresh Ingredients
+
+Locally sourced and carefully selected.
+
+### Fast Delivery
+
+Hot food delivered quickly.
+
+### Secure Payments
+
+Safe and convenient checkout.
+
+### Quality Promise
+
+Every order prepared with care.
+
+---
+
+# 28. CUSTOMER REVIEWS
+
+Create testimonial section.
+
+At least 6 reviews.
+
+Each review:
+
+* Avatar
+* Name
+* Rating
+* Review
+* Date
+
+Example:
+
+**Priya S.**
+
+★★★★★
+
+"Everything arrived hot and fresh. The truffle pizza was amazing."
+
+---
+
+# 29. FAQ SECTION
+
+Create accordion FAQ.
+
+Questions:
+
+* How long does delivery take?
+* Do you offer vegetarian options?
+* Can I customize my order?
+* Can I schedule an order?
+* What payment methods are accepted?
+* Can I cancel an order?
+* Is there a minimum order value?
+* Do you deliver outside the city?
+
+Accordion must open/close using JavaScript.
+
+---
+
+# 30. CONTACT SECTION
+
+Create:
+
+**Get in touch**
+
+Include:
+
+📍 Coimbatore, Tamil Nadu
+
+📞 +91 98765 43210
+
+✉ [hello@savore.example](mailto:hello@savore.example)
+
+Opening hours:
+
+Monday–Sunday
+
+11:00 AM – 11:00 PM
+
+Add contact form:
+
+* Name
+* Email
+* Message
+
+Button:
+
+**Send Message**
+
+Validate the form.
+
+Show success toast after submission.
+
+---
+
+# 31. FOOTER
+
+Footer should contain:
+
+### SAVORÉ
+
+Good food. Made for your mood.
+
+Links:
+
+* Home
+* Menu
+* Offers
+* About
+* Contact
+* Privacy Policy
+* Terms
+
+Social icons:
+
+* Instagram
+* Facebook
+* X
+* YouTube
+
+Newsletter:
+
+**Get delicious updates**
+
+Email input.
+
+Subscribe button.
+
+Show success state after submission.
+
+---
+
+# 32. MOBILE BOTTOM NAVIGATION
+
+On mobile only, create a fixed bottom navigation bar.
+
+Items:
+
+* Home
+* Menu
+* Search
+* Orders
+* Cart
+
+Cart should show live item count.
+
+---
+
+# 33. SEARCH EXPERIENCE
+
+Create a global search overlay.
+
+When search icon is clicked:
+
+Open full-width search interface.
+
+Include:
+
+**What are you craving?**
+
+Search field.
+
+Display live results while typing.
+
+Example:
+
+Typing:
+
+**pizza**
+
+should immediately display matching pizza products.
+
+Include:
+
+**Recent Searches**
+
+Store recent searches in localStorage.
+
+---
+
+# 34. NOTIFICATIONS / TOASTS
+
+Create reusable toast notification system.
+
+Use for:
+
+* Item added
+* Item removed
+* Coupon applied
+* Coupon invalid
+* Address saved
+* Order placed
+* Newsletter subscribed
+* Contact form submitted
+* Login successful
+
+Toasts should automatically disappear.
+
+---
+
+# 35. LOADING STATES
+
+Add subtle loading states where appropriate.
+
+Examples:
+
+* Menu loading skeleton
+* Order processing state
+* Search loading state
+
+Do not overuse loaders.
+
+---
+
+# 36. EMPTY / ERROR STATES
+
+Design proper states for:
+
+* Empty cart
+* No search results
+* Invalid coupon
+* Form validation errors
+* No previous orders
+
+Example no results:
+
+**No delicious matches found.**
+
+**Try another dish or category.**
+
+Button:
+
+**View All Menu**
+
+---
+
+# 37. ACCESSIBILITY
+
+Follow accessibility best practices.
+
+Include:
+
+* Semantic HTML5
+* Proper heading hierarchy
+* Labels for forms
+* Alt text
+* Keyboard navigation
+* Focus states
+* ARIA labels where needed
+* Sufficient contrast
+* Accessible modals
+* Escape key closes modals
+
+---
+
+# 38. RESPONSIVE DESIGN
+
+The website must work perfectly at:
+
+### Desktop
+
+1440px
+
+1280px
+
+1024px
+
+### Tablet
+
+768px
+
+### Mobile
+
+480px
+
+375px
+
+320px
+
+Do not simply shrink desktop.
+
+Create proper mobile layouts.
+
+---
+
+# 39. ANIMATIONS
+
+Use subtle CSS/JavaScript animations:
+
+* Fade-in
+* Slide-up
+* Hover lift
+* Button interaction
+* Modal entrance
+* Cart drawer animation
+* Category scrolling
+* Toast animation
+* Order progress animation
+
+Animations must remain fast and professional.
+
+Avoid excessive animations.
+
+---
+
+# 40. LOCAL STORAGE
+
+Use localStorage for:
+
+* Cart
+* User preferences
+* Saved addresses
+* Coupon
+* Recent searches
+* Order history
+* Current order
+* Guest session
+
+Refreshing the page must not unnecessarily delete the cart.
+
+---
+
+# 41. DATA ARCHITECTURE
+
+Keep menu data in a JavaScript array/object.
+
+Example structure:
+
+```javascript
+const menuItems = [
+  {
+    id: 1,
+    name: "Truffle Mushroom Pizza",
+    category: "Pizza",
+    price: 449,
+    rating: 4.8,
+    reviews: 124,
+    veg: true,
+    bestseller: true,
+    description: "...",
+    ingredients: ["..."],
+    calories: 680,
+    prepTime: "20 min",
+    image: "...",
+    customizable: true
+  }
+];
+```
+
+Use JavaScript to dynamically render menu cards.
+
+Do not hard-code every product card separately in HTML.
+
+---
+
+# 42. FILE STRUCTURE
+
+Create the project with:
+
+```text
+savore/
+│
+├── index.html
+├── menu.html
+├── checkout.html
+├── tracking.html
+│
+├── css/
+│   ├── style.css
+│   ├── responsive.css
+│   └── components.css
+│
+├── js/
+│   ├── app.js
+│   ├── menu.js
+│   ├── cart.js
+│   ├── checkout.js
+│   └── utils.js
+│
+└── assets/
+    ├── images/
+    └── icons/
+```
+
+If multiple HTML pages create unnecessary duplication, you may instead implement the experience as a **single-page application using vanilla JavaScript**, but maintain clear sections and URL/hash navigation.
+
+---
+
+# 43. SEO
+
+Add:
+
+* Proper title
+* Meta description
+* Viewport
+* Open Graph metadata
+* Semantic structure
+* Descriptive image alt text
+* Clean headings
+
+Title:
+
+**SAVORÉ — Food Delivered to Your Door**
+
+Description:
+
+**Order freshly prepared food from SAVORÉ. Explore our menu, customize your meal and get delicious food delivered fast.**
+
+---
+
+# 44. PERFORMANCE
+
+Optimize the frontend:
+
+* Lazy-load non-critical images
+* Avoid unnecessary JavaScript
+* Use efficient DOM updates
+* Avoid excessive animations
+* Use reusable functions
+* Keep CSS organized
+* Avoid duplicate code
+
+---
+
+# 45. FINAL UI DETAILS
+
+Add:
+
+* Sticky navbar
+* Scroll-to-section behavior
+* Back-to-top button
+* Custom scrollbar where appropriate
+* Hover states
+* Active navigation state
+* Focus states
+* Smooth scrolling
+* Responsive images
+* Proper button states
+* Disabled states
+
+---
+
+# 46. FUNCTIONAL REQUIREMENTS
+
+The following MUST work:
+
+✅ Menu filtering
+✅ Menu searching
+✅ Menu sorting
+✅ Category selection
+✅ Product modal
+✅ Product customization
+✅ Add to cart
+✅ Remove from cart
+✅ Increase quantity
+✅ Decrease quantity
+✅ Cart persistence
+✅ Coupon application
+✅ Coupon removal
+✅ Delivery/pickup selection
+✅ Address form
+✅ Saved addresses
+✅ Payment selection
+✅ Form validation
+✅ Place order
+✅ Order confirmation
+✅ Order tracking
+✅ Order history
+✅ Reorder
+✅ Login simulation
+✅ Mobile navigation
+✅ Search overlay
+✅ FAQ accordion
+✅ Toast notifications
+✅ Newsletter form
+✅ Contact form
+✅ Responsive design
+
+---
+
+# 47. FINAL QUALITY CHECK
+
+Before finishing, test the entire website logically.
+
+Check:
+
+* No broken buttons
+* No broken links
+* No console errors
+* No overlapping elements
+* No horizontal scrolling on mobile
+* Cart calculations are correct
+* Discount calculations are correct
+* Taxes calculate correctly
+* Quantity updates work
+* Checkout validation works
+* Order creation works
+* Order tracking works
+* localStorage works
+* Mobile navigation works
+* Modals can close
+* Escape key works
+* Forms work
+* Search works
+* Filters work
+* Sorting works
+
+---
+
+# 48. FINAL INSTRUCTION
+
+Build this as a **portfolio-quality restaurant ordering product**, not merely a visual mockup.
+
+The final website should communicate:
+
+**"This developer can design and build a complete real-world product."**
+
+Prioritize:
+
+**UX → Visual Design → Functionality → Responsiveness → Code Quality**
+
+Use **HTML5 + CSS3 + Vanilla JavaScript only**.
+
+Return the **complete working project code**, organized according to the file structure above.
+
+Do not omit any major section or functionality.

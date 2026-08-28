@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "SAVORÉ Restaurant Ordering"
+description = "A premium casual multi-cuisine ordering experience for discovering dishes, customizing meals, managing a persistent cart, checking out, and tracking orders."
+version = "1.0.0"
+id = "artifacts/savore-restaurant"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18092
+
+[services.development]
+run = "pnpm --filter @workspace/savore-restaurant run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/savore-restaurant", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/savore-restaurant/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18092"
+BASE_PATH = "/"
